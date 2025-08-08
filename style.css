@@ -1,0 +1,36 @@
+header {
+  padding: 154px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+section, aside, article {
+  padding: 20px 0;
+}
+
+h2{
+  font-family: 'Indie Flower', cursive;
+  font-size: 3em;
+}
+
+.background{
+  background: url("img/background.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
+}
+
+header .container{
+  margin-top: -50px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.film-item, section h2{
+  margin-bottom: 30px;
+}
