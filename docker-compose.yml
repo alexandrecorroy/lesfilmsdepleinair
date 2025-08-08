@@ -1,0 +1,6 @@
+services:
+  nginx:
+    image: yorkknew/lesfilmsdepleinair:1.0
+    restart: always
+    ports:
+      - "80:80"
